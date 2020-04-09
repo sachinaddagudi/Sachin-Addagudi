@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 				"json:target\\cucumber-json-report",
 				"junit:target\\cucumber-junit-report",
 				"com.cucumber.listener.ExtentCucumberFormatter:target\\cucmber-extent-report\\Extentreport.html"},
-		tags = { "@TC01_02"},
+		tags = { "@TC01_01,@TC01_02,@TC01_03,@TC01_04"},
 		glue = {"com.stepdef"},
 		monochrome = true
 		//dryRun=false
